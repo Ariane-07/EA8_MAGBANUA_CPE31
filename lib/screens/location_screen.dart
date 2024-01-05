@@ -4,7 +4,7 @@ import 'package:ea8_doce/services/networking.dart';
 import 'package:ea8_doce/utilities/constants.dart';
 import 'package:ea8_doce/services/weather.dart';
 import 'dart:convert';
-// ignore: must_be_immutable
+
 
 class LocationScreen extends StatefulWidget {
   LocationScreen(this.data, {super.key});
@@ -79,7 +79,7 @@ class _LocationScreenState extends State<LocationScreen> {
                       });
                     },
                     child: const Icon(
-                      Icons.near_me, //eto yung default location btn
+                      Icons.near_me, 
                       size: 50.0,
                     ),
                   ),
@@ -121,7 +121,7 @@ class _LocationScreenState extends State<LocationScreen> {
                   children: <Widget>[
                     if (!error)
                       Text(
-                        temp.toStringAsFixed(0) + '°', //eto yung temp ng city
+                        temp.toStringAsFixed(0) + '°', 
                         style: kTempTextStyle,
                       ),
                     Text(
@@ -136,7 +136,7 @@ class _LocationScreenState extends State<LocationScreen> {
                 child: Text(
                   error
                       ? weathermsg
-                      : "$weathermsg in $city", //eto yung text message
+                      : "$weathermsg in $city", 
                   textAlign: TextAlign.right,
                   style: kMessageTextStyle,
                 ),
