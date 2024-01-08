@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ea8_doce/screens/city_screen.dart';
-import 'package:ea8_doce/services/networking.dart';
-import 'package:ea8_doce/utilities/constants.dart';
-import 'package:ea8_doce/services/weather.dart';
+import 'package:ea8_magbanua_cpe31/screens/city_screen.dart';
+import 'package:ea8_magbanua_cpe31/services/networking.dart';
+import 'package:ea8_magbanua_cpe31/utilities/constants.dart';
+import 'package:ea8_magbanua_cpe31/services/weather.dart';
 import 'dart:convert';
 
 

@@ -1,4 +1,4 @@
-import 'package:ea8_doce/utilities/constants.dart';
+import 'package:ea8_magbanua_cpe31/utilities/constants.dart';
 import 'package:flutter/material.dart';
 
 class CityScreen extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart';
-import 'package:ea8_doce/services/location.dart';
+import 'package:ea8_magbanua_cpe31/services/location.dart';
 
 class Networking {
   String appID = "2ac5f898d2203f7027824517cb28924d";
@@ -34,12 +34,8 @@ class Networking {
 
     if (response.statusCode == 200) {
       return data;
-    } else if (response.statusCode == 400) {
-      throw ErrorDescription("Nothing to decode");
-    } else if (response.statusCode == 404) {
-      throw ErrorDescription("Not found");
     } else {
-      throw ErrorDescription("Random error");
+      throw ErrorDescription("Error");
     }
   }
 }

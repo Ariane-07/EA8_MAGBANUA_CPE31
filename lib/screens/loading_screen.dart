@@ -1,8 +1,8 @@
-import 'package:ea8_doce/screens/location_screen.dart';
+import 'package:ea8_magbanua_cpe31/screens/location_screen.dart';
 
 import 'package:flutter/material.dart';
 
-import 'package:ea8_doce/services/networking.dart';
+import 'package:ea8_magbanua_cpe31/services/networking.dart';
 
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
@@ -24,9 +24,9 @@ class _LoadingScreenState extends State<LoadingScreen> {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-          child: SpinKitWaveSpinner(
+          child: SpinKitHourGlass(
         size: 100.0,
-        color: Colors.greenAccent,
+        color: Colors.white,
       )),
     );
   }
